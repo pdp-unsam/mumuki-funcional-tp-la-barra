@@ -1,0 +1,8 @@
+---
+name: La Barra
+locale: es
+type: practice
+beta: false
+language: haskell
+id_format: '%05d'
+order: []
