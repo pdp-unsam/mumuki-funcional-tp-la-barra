@@ -1,0 +1,1 @@
+batirIngredientes = batir . ingredientes
