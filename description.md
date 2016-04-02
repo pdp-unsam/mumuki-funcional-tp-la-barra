@@ -1,4 +1,4 @@
-La cátedra de Paradigmas de Programación quiere abrir una barra móvil para ofrecerlas en las [MeetUps](http://www.meetup.com/es-ES/) que abudimos.
+La cátedra de Paradigmas de Programación quiere abrir una barra móvil para ofrecerlas en las [MeetUps](http://www.meetup.com/es-ES/) que acudimos.
 
 Para ello, nos piden hacer un sistema en Haskell que los ayude a preparar tragos y ver cómo las personas que los consumen reaccionan ante los mismos.
 
