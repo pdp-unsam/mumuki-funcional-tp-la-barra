@@ -1,1 +1,1 @@
-- Para averiguar el punto medio entre dos valores bastta con hacer la semi-suma entre ellos: `(a + b) / 2`. Así, por ejemplo, el punto medio entre 10 y 14 es 12.
+- Para averiguar el punto medio entre dos valores basta con hacer la semi-suma entre ellos: `(a + b) / 2`. Así, por ejemplo, el punto medio entre 10 y 14 es 12.
