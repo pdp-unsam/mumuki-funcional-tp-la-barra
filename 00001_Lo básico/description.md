@@ -33,9 +33,11 @@ naranja50 = UnIngrediente "jugoDeNaranja" 70  0 30 50
 ```
 
 Se pide:
+
 - Poder **condimentar/2** un ingrediente. Esto significa que dado un ingrediente y un condimento, modifica el los atributos del ingrediente al _punto medio_ entre el valor actual y el del condimento.
 
 Un condimento es una tri-upla son los niveles de dulzura, alcohol y color respectivamente. Algunos ejemplos podrían ser:
+
 ```Haskell
 type Condimento = (Float, Float, Float)
 
