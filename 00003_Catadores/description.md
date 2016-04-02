@@ -16,7 +16,7 @@ tragos      (UnaPersona _ _ _ trgs) = trgs
 
 ```
 
-Algunos ejemplos son>
+Algunos ejemplos son:
 
 ```Haskell
 fernerConCoca   = UnTrago "Branca" [ hielo30, fernet50, coca50]
