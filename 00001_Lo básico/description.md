@@ -40,5 +40,5 @@ colorante = (15, 0, 100) :: Condimento
 
 - Poder **mezclar/2** un ingrediente con muchos otros. Al hacer esto el ingrediente se condimenta con los valores máximos, para cada atributo (dulzura, alcohol y color), de los otros ingredientes. Dicho en otras palabras, el ingrediente a mezclar que se va a condimentar tomando como atributos del condimento el más alto entre todos los valores de los otros ingredientes.
 
-- Poder **batir/1** muchos ingedientes entre si. Quiere decir que cada ingrediente se va a mezclar con todo el resto.
+- Poder **batir/1** muchos ingedientes entre sí. Quiere decir que cada ingrediente se va a mezclar con todo el resto (excluyendo dicho ingrediente).
 
