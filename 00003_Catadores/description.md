@@ -1,6 +1,7 @@
 Bien! Ya casi terminamos. Solo nos queda servirles los tragos a los clientes para que los tomen.
 
 Para ello se definieron los siguientes tipos y funciones:
+
 ```Haskell
 data Trago = UnTrago String [Ingrediente] deriving (Show,Eq)
 
@@ -13,6 +14,21 @@ resistencia (UnaPersona _ res _ _)  = res
 ebriedad    (UnaPersona _ _ ebr _)  = ebr
 tragos      (UnaPersona _ _ _ trgs) = trgs
 
+```
+
+Algunos ejemplos son>
+
+```Haskell
+fernerConCoca   = UnTrago "Branca" [ hielo30, fernet50, coca50]
+destornillador  = UnTrago "Destornillador" [hielo30, naranja50, vodka50]
+speedConVodka   = UnTrago "Speed con vodka" [ vodka10,  speed80]
+puroVodka       = UnTrago "Vodka" [ hielo30,  vodka100]
+vodkaMenta      = UnTrago "Vodka Menta" [ vodka50,  fernet20 ]
+
+
+charlySheen = UnaPersona "charly" 98 50 [ puroVodka , fernerConCoca ]
+chuckNorris = UnaPersona "chuck" 100 0 [ vodkaMenta ]
+funesMori   = UnaPersona "el memorioso" 0 75 [ speedConVodka ]
 ```
 
 Los tragos están compuesto por un nombre y una lista de ingredientes. Y las personas por un nombre, nivel de resistencia alchólica, nivel de ebriedad y una lista de tragos tomados.
