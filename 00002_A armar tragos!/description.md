@@ -2,7 +2,7 @@ Ahora que ya dominamos los ingredientes, podemos armar tragos de buena calidad.
 
 Aunque en realidad queremos implementar **armadoras de tragos**. Una armadora está definida como:
 
-```Haskell
+``` Haskell
 type Armadora = [Ingrediente] -> [Ingrediente]
 ```
 
