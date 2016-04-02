@@ -1,4 +1,5 @@
 Contemplar que ya existe la función
+
 ```Haskell
 avg :: Fractional a => [a] -> a
 ```
