@@ -1,8 +1,8 @@
 ---
 expectations:
-- binding: condimentar
+- binding: directo
   inspection: HasTypeSignature
-- binding: mezclar
+- binding: licuadora
   inspection: HasTypeSignature
-- binding: batir
+- binding: coctelera
   inspection: HasTypeSignature
