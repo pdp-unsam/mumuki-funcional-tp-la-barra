@@ -1,8 +1,8 @@
 describe "Cuando Charly Sheen bebe" $ do
-  it "destornillador queda UnaPersona 'charly' 100.0 68.333336 [UnTrago 'Destornillador' [UnIngrediente 'hielo' 0.0 0.0 0.0 30.0,UnIngrediente 'jugoDeNaranja' 70.0 0.0 30.0 50.0,UnIngrediente 'vodka' 10.0 55.0 0.0 50.0],UnTrago 'Vodka' [UnIngrediente 'hielo' 0.0 0.0 0.0 30.0,UnIngrediente 'vodka' 10.0 55.0 0.0 100.0],UnTrago 'Branca' [UnIngrediente 'hielo' 0.0 0.0 0.0 30.0,UnIngrediente 'fernet' 10.0 10.0 50.0 50.0,UnIngrediente 'cocaCola' 100.0 0.0 80.0 50.0]]" $ do
+  it "destornillador queda UnaPersona 'charly' 100.0 68.333336 [UnTrago 'Destornillador' ...]" $ do
     beber charlySheen destornillador `shouldBe` UnaPersona "charly" 100.0 68.333336 [UnTrago "Destornillador" [UnIngrediente "hielo" 0.0 0.0 0.0 30.0,UnIngrediente "jugoDeNaranja" 70.0 0.0 30.0 50.0,UnIngrediente "vodka" 10.0 55.0 0.0 50.0],UnTrago "Vodka" [UnIngrediente "hielo" 0.0 0.0 0.0 30.0,UnIngrediente "vodka" 10.0 55.0 0.0 100.0],UnTrago "Branca" [UnIngrediente "hielo" 0.0 0.0 0.0 30.0,UnIngrediente "fernet" 10.0 10.0 50.0 50.0,UnIngrediente "cocaCola" 100.0 0.0 80.0 50.0]]
 
-  it "vodka menta queda UnaPersona 'charly' 100.0 82.5 [UnTrago 'Vodka Menta' [UnIngrediente 'vodka' 10.0 55.0 0.0 50.0,UnIngrediente 'fernet' 10.0 10.0 50.0 20.0],UnTrago 'Vodka' [UnIngrediente 'hielo' 0.0 0.0 0.0 30.0,UnIngrediente 'vodka' 10.0 55.0 0.0 100.0],UnTrago 'Branca' [UnIngrediente 'hielo' 0.0 0.0 0.0 30.0,UnIngrediente 'fernet' 10.0 10.0 50.0 50.0,UnIngrediente 'cocaCola' 100.0 0.0 80.0 50.0]]" $ do
+  it "vodka menta queda UnaPersona 'charly' 100.0 82.5 [UnTrago 'Vodka Menta' ...]" $ do
     beber charlySheen vodkaMenta `shouldBe` UnaPersona "charly" 100.0 82.5 [UnTrago "Vodka Menta" [UnIngrediente "vodka" 10.0 55.0 0.0 50.0,UnIngrediente "fernet" 10.0 10.0 50.0 20.0],UnTrago "Vodka" [UnIngrediente "hielo" 0.0 0.0 0.0 30.0,UnIngrediente "vodka" 10.0 55.0 0.0 100.0],UnTrago "Branca" [UnIngrediente "hielo" 0.0 0.0 0.0 30.0,UnIngrediente "fernet" 10.0 10.0 50.0 50.0,UnIngrediente "cocaCola" 100.0 0.0 80.0 50.0]]
 
 
