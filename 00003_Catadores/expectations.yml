@@ -1,0 +1,8 @@
+---
+expectations:
+- binding: armadorasDeLaCasa
+  inspection: HasTypeSignature
+- binding: beber
+  inspection: HasTypeSignature
+- binding: degustar
+  inspection: HasTypeSignature
