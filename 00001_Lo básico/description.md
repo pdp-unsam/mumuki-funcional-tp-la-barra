@@ -12,23 +12,16 @@ cant    (UnIngrediente _ _ _ _ cant)  = cant
 ```
 
 Algunos ejemplos son:
+
 ```Haskell
 vodka10   = UnIngrediente "vodka" 10  55 0 10
-
 vodka50   = UnIngrediente "vodka" 10  55 0 50
-
 vodka100  = UnIngrediente "vodka" 10  55 0 100
-
 speed80   = UnIngrediente "speed" 30 1 10 80
-
 fernet20  = UnIngrediente "fernet" 10 10 50 20
-
 fernet50  = UnIngrediente "fernet" 10 10 50 50
-
 hielo30   = UnIngrediente "hielo" 0 0 0 30
-
 coca50    = UnIngrediente "cocaCola" 100  0 80 50
-
 naranja50 = UnIngrediente "jugoDeNaranja" 70  0 30 50
 ```
 
