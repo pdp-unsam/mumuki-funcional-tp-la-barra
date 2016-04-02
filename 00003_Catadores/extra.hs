@@ -1,0 +1,1 @@
+avg nums = sum nums / (fromIntegral . length) nums
