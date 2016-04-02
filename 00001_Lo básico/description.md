@@ -5,22 +5,30 @@ Para ello se ofrece un tipo de dato compuesto por nombre, dulzura, alcohol, colo
 ```Haskell
 data Ingrediente = UnIngrediente String Float Float Float Float deriving (Show,Eq)
 
-dulzura (UnIngrediente _ dul _ _ _) = dul
-alcohol (UnIngrediente _ _ alc _ _) = alc
-color (UnIngrediente _ _ _ col _)   = col
-cant (UnIngrediente _ _ _ _ cant)   = cant
+dulzura (UnIngrediente _ dul _ _ _)   = dul
+alcohol (UnIngrediente _ _ alc _ _)   = alc
+color   (UnIngrediente _ _ _ col _)   = col
+cant    (UnIngrediente _ _ _ _ cant)  = cant
 ```
 
 Algunos ejemplos son:
 ```Haskell
 vodka10   = UnIngrediente "vodka" 10  55 0 10
+
 vodka50   = UnIngrediente "vodka" 10  55 0 50
+
 vodka100  = UnIngrediente "vodka" 10  55 0 100
+
 speed80   = UnIngrediente "speed" 30 1 10 80
+
 fernet20  = UnIngrediente "fernet" 10 10 50 20
+
 fernet50  = UnIngrediente "fernet" 10 10 50 50
+
 hielo30   = UnIngrediente "hielo" 0 0 0 30
+
 coca50    = UnIngrediente "cocaCola" 100  0 80 50
+
 naranja50 = UnIngrediente "jugoDeNaranja" 70  0 30 50
 ```
 
