@@ -17,3 +17,11 @@ data Persona = UnaPersona String Float Float [Trago] deriving (Show,Eq)
 resistencia (UnaPersona _ res _ _) = res
 ebriedad (UnaPersona _ _ ebri _) = ebri
 tragos (UnaPersona _ _ _ tragos) = tragos
+
+-- dulzura, alcohol, color
+type Condimento = (Float, Float, Float)
+
+azucar = (80, 5, 0) :: Condimento
+colorante = (15, 0, 100) :: Condimento
+
+type Armadora = [Ingrediente] -> [Ingrediente]
