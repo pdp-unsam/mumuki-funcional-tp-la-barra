@@ -1,0 +1,8 @@
+---
+expectations:
+- inspection: HasTypeSignature
+  binding: condimentar
+- inspection: HasTypeSignature
+  binding: mezclar
+- inspection: HasTypeSignature
+  binding: batir
