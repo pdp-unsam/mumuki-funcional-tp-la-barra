@@ -18,7 +18,7 @@ tragos      (UnaPersona _ _ _ trgs) = trgs
 Los tragos están compuesto por un nombre y una lista de ingredientes. Y las personas por un nombre, nivel de resistencia alchólica, nivel de ebriedad y una lista de tragos tomados.
 
 Se pide:
-- Definir las armadorasDeLaCasa/0 que es una lista con todas las armadoras que ofrece el bar. Ellas son, **en orden**:
+- Definir las armadorasDeLaCasa/0 que es una lista con todas las armadoras que ofrece la barra. Ellas son, **en orden**:
   - directo con 10 hielos,
   - licuadora
   - directo con 5 hielos,
