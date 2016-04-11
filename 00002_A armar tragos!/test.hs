@@ -16,6 +16,9 @@ describe "Armar los ingredientes" $ do
 	it "de vodka menta en coctelera sin flambear por 15 segundos" $ do
 	  (coctelera False 15 . ingredientes) vodkaMenta `shouldBe` [ UnIngrediente "hielo" 0.0 0.0 0.0 20.0, UnIngrediente "vodka" 10.0 55.0 0.0 50.0, UnIngrediente "fernet" 10.0 10.0 50.0 20.0 ]
 
+	it "de puro vodka en coctelera flambeado por 10 segundos" $ do
+	  (coctelera True 10 . ingredientes) puroVodka `shouldBe` [ UnIngrediente "hielo" 2.0 0.0 5.0 29.0, UnIngrediente "vodka" 10.0 55.0 0.0 100.0 ]
+	  
 	it "de puro vodka en coctelera flambeado por 20 segundos" $ do
 	  (coctelera True 20 . ingredientes) puroVodka `shouldBe` [ UnIngrediente "hielo" 2.0 0.0 5.0 28.0, UnIngrediente "vodka" 10.0 55.0 0.0 100.0 ]
 
