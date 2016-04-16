@@ -40,7 +40,7 @@ Se pide:
   - licuadora
   - directo con 5 hielos,
   - coctelera flambeada y agitada 10 segundos
-  - y cocteleras sin flambera agitándolas todos los segundos posibles
+  - y cocteleras sin flambear agitándolas todos los segundos posibles
 
 - Definir **beber/2** que dada una persona y un trago retorna a la persona agregando el trago a los tragos que tomó, aumentando en 2 su resistencia y aumentando su ebriedad en la cantidad de escabio del trago. La cantidad de escabio de un trago está dado por el promedio del alcohol de sus ingredientes.
 
